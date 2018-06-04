@@ -12,6 +12,7 @@
 		6F864DCF20C5EB2D00D82D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DCD20C5EB2D00D82D61 /* Main.storyboard */; };
 		6F864DD120C5EB2F00D82D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DD020C5EB2F00D82D61 /* Assets.xcassets */; };
 		6F864DD420C5EB2F00D82D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DD220C5EB2F00D82D61 /* LaunchScreen.storyboard */; };
+		6F864DDC20C5EB6C00D82D61 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DDB20C5EB6C00D82D61 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F864DD020C5EB2F00D82D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F864DD320C5EB2F00D82D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F864DD520C5EB2F00D82D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F864DDB20C5EB6C00D82D61 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6F864DBD20C5EB2D00D82D61 = {
 			isa = PBXGroup;
 			children = (
+				6F864DDB20C5EB6C00D82D61 /* README.md */,
 				6F864DC820C5EB2D00D82D61 /* What's that Whistle? */,
 				6F864DC720C5EB2D00D82D61 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				6F864DD420C5EB2F00D82D61 /* LaunchScreen.storyboard in Resources */,
 				6F864DD120C5EB2F00D82D61 /* Assets.xcassets in Resources */,
+				6F864DDC20C5EB6C00D82D61 /* README.md in Resources */,
 				6F864DCF20C5EB2D00D82D61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "What's that Whistle?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.What-s-that-Whistle-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "What's that Whistle?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.What-s-that-Whistle-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

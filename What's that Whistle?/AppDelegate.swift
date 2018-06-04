@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  What's that Whistle?
 //
-//  Created by Forrest Parker on 6/4/18.
-//  Copyright © 2018 Forrest Parker. All rights reserved.
-//
 
 import UIKit
 
