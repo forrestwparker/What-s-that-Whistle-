@@ -7,16 +7,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @objc func addWhistle() {
+        let vc = RecordWhistleViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        title = "What's that Whistle?"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addWhistle))
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Home", style: .plain, target: nil, action: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

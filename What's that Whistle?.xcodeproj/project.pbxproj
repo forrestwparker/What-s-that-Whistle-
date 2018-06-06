@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F71CFDC20C8A27D00088E1D /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71CFDB20C8A27C00088E1D /* RecordWhistleViewController.swift */; };
 		6F864DCA20C5EB2D00D82D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F864DC920C5EB2D00D82D61 /* AppDelegate.swift */; };
 		6F864DCC20C5EB2D00D82D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F864DCB20C5EB2D00D82D61 /* ViewController.swift */; };
 		6F864DCF20C5EB2D00D82D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DCD20C5EB2D00D82D61 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F71CFDB20C8A27C00088E1D /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
 		6F864DC620C5EB2D00D82D61 /* What's that Whistle?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's that Whistle?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F864DC920C5EB2D00D82D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F864DCB20C5EB2D00D82D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				6F864DD020C5EB2F00D82D61 /* Assets.xcassets */,
 				6F864DD220C5EB2F00D82D61 /* LaunchScreen.storyboard */,
 				6F864DD520C5EB2F00D82D61 /* Info.plist */,
+				6F71CFDB20C8A27C00088E1D /* RecordWhistleViewController.swift */,
 			);
 			path = "What's that Whistle?";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				6F864DCC20C5EB2D00D82D61 /* ViewController.swift in Sources */,
 				6F864DCA20C5EB2D00D82D61 /* AppDelegate.swift in Sources */,
+				6F71CFDC20C8A27D00088E1D /* RecordWhistleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
