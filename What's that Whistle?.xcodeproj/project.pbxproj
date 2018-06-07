@@ -61,11 +61,11 @@
 			children = (
 				6F864DC920C5EB2D00D82D61 /* AppDelegate.swift */,
 				6F864DCB20C5EB2D00D82D61 /* ViewController.swift */,
+				6F71CFDB20C8A27C00088E1D /* RecordWhistleViewController.swift */,
 				6F864DCD20C5EB2D00D82D61 /* Main.storyboard */,
 				6F864DD020C5EB2F00D82D61 /* Assets.xcassets */,
 				6F864DD220C5EB2F00D82D61 /* LaunchScreen.storyboard */,
 				6F864DD520C5EB2F00D82D61 /* Info.plist */,
-				6F71CFDB20C8A27C00088E1D /* RecordWhistleViewController.swift */,
 			);
 			path = "What's that Whistle?";
 			sourceTree = "<group>";
